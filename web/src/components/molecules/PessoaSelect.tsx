@@ -1,0 +1,1 @@
+export { PessoaSelect } from "./LazyPessoaSelect";

@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# .NET test results
+**/TestResults/
+**/*.trx
+**/coverage.cobertura.xml
+**/coverage.opencover.xml
+
+# Playwright
+playwright-report/
+playwright/.cache/
+blob-report/
+
+# Vitest test results
+web/test-results/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+*.env
+.env.local
+.env.*.local

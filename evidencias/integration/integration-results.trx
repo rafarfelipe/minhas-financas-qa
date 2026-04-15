@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="25dbcf48-a21c-4f8e-9ad9-912052dbcab8" name="Rafa@CYBER 2026-04-15 16:10:29" runUser="CYBER\Rafa" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-04-15T16:10:29.1419608-03:00" queuing="2026-04-15T16:10:29.1419613-03:00" start="2026-04-15T16:10:27.0742643-03:00" finish="2026-04-15T16:10:29.2096676-03:00" />
+  <TestSettings name="default" id="7f6f5cba-801f-4afa-ab39-841c39c1f79f">
+    <Deployment runDeploymentRoot="Rafa_CYBER_2026-04-15_16_10_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1bb7e21c-e42d-40e6-a515-264b917032e5" testId="b2bf7410-49a3-9fd3-4398-7b59007134b8" testName="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.AtualizarAsync_PessoaExistente_AtualizaCampos" computerName="CYBER" duration="00:00:00.0124379" startTime="2026-04-15T16:10:29.1129683-03:00" endTime="2026-04-15T16:10:29.1243850-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bb7e21c-e42d-40e6-a515-264b917032e5" />
+    <UnitTestResult executionId="be7dab12-c020-4674-af9f-8a82838c60ac" testId="6516fd31-b489-8361-30e8-5ab4b1b77647" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_MenorComDespesa_Sucesso" computerName="CYBER" duration="00:00:00.0067061" startTime="2026-04-15T16:10:29.1127808-03:00" endTime="2026-04-15T16:10:29.1129974-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be7dab12-c020-4674-af9f-8a82838c60ac" />
+    <UnitTestResult executionId="c0f0f373-6625-418b-bb55-30908691c7ad" testId="1de6ca08-e989-9e3a-24c9-d75ca5d0d190" testName="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests.CriarAsync_CategoriaValida_RetornaDto" computerName="CYBER" duration="00:00:00.0078226" startTime="2026-04-15T16:10:29.0582224-03:00" endTime="2026-04-15T16:10:29.1062937-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0f0f373-6625-418b-bb55-30908691c7ad" />
+    <UnitTestResult executionId="554685e0-419a-478a-8d76-bd83cc8305cf" testId="c70c9210-463b-dca8-8325-268ca04aeb38" testName="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.ObterPorIdAsync_Inexistente_RetornaNulo" computerName="CYBER" duration="00:00:00.0066144" startTime="2026-04-15T16:10:29.1125994-03:00" endTime="2026-04-15T16:10:29.1128392-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="554685e0-419a-478a-8d76-bd83cc8305cf" />
+    <UnitTestResult executionId="8b360bed-0a38-481d-9db8-d8fc32ffb658" testId="7bc4436a-468b-68dd-2a55-3818f8bdc33b" testName="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests.PermiteTipo_PeloDbContext_ConsistenteComDominio" computerName="CYBER" duration="00:00:00.0064423" startTime="2026-04-15T16:10:29.1067611-03:00" endTime="2026-04-15T16:10:29.1070389-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b360bed-0a38-481d-9db8-d8fc32ffb658" />
+    <UnitTestResult executionId="0c87e484-0536-4d6b-8026-844a9b7419d6" testId="f5af63ab-fcb5-b268-d673-f4d40360d80f" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_CategoriaIncompativel_LancaInvalidOperationException" computerName="CYBER" duration="00:00:00.0066212" startTime="2026-04-15T16:10:29.1245438-03:00" endTime="2026-04-15T16:10:29.1309169-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c87e484-0536-4d6b-8026-844a9b7419d6" />
+    <UnitTestResult executionId="94641c80-c785-4054-bc37-2205c16a9c79" testId="6d5cb675-4208-698d-f136-e95c5c6c3a70" testName="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.CriarAsync_DataNascimentoFutura_ServiceAceita" computerName="CYBER" duration="00:00:00.0088369" startTime="2026-04-15T16:10:29.0638903-03:00" endTime="2026-04-15T16:10:29.1068495-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94641c80-c785-4054-bc37-2205c16a9c79" />
+    <UnitTestResult executionId="020bc88e-6630-4b41-a18c-d7ec192cbca4" testId="b589af6f-f372-7ae4-d651-5be3d9386b55" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_MenorComReceita_LancaInvalidOperationException" computerName="CYBER" duration="00:00:01.0165211" startTime="2026-04-15T16:10:27.8605646-03:00" endTime="2026-04-15T16:10:28.8888889-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="020bc88e-6630-4b41-a18c-d7ec192cbca4" />
+    <UnitTestResult executionId="95a8a8d7-48ac-4b44-90e2-eaa5e42ca223" testId="90d35991-91aa-c1d9-331a-1e0633bc1030" testName="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.CriarTransacaoDepoisExcluirPessoa_ExclusaoEmCascataFunciona" computerName="CYBER" duration="00:00:00.0101349" startTime="2026-04-15T16:10:29.1338618-03:00" endTime="2026-04-15T16:10:29.1433319-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95a8a8d7-48ac-4b44-90e2-eaa5e42ca223" />
+    <UnitTestResult executionId="790facf9-c277-46fa-be16-5991fc8f15bc" testId="fc2af403-7c65-e6f1-286d-9ab27e9b4d39" testName="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.ExcluirPessoa_ExcluiTransacoesEmCascata" computerName="CYBER" duration="00:00:00.0403727" startTime="2026-04-15T16:10:29.1121331-03:00" endTime="2026-04-15T16:10:29.1330318-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="790facf9-c277-46fa-be16-5991fc8f15bc" />
+    <UnitTestResult executionId="736ed200-2db6-4922-8aab-fc7cee842444" testId="4380032b-c5f9-2915-a6bb-fa714cd4b26c" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_CategoriaInexistente_LancaArgumentException" computerName="CYBER" duration="00:00:00.0136343" startTime="2026-04-15T16:10:29.1096360-03:00" endTime="2026-04-15T16:10:29.1126356-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="736ed200-2db6-4922-8aab-fc7cee842444" />
+    <UnitTestResult executionId="381c790f-2607-46b4-894a-c62ad63f4895" testId="9b80d459-dce4-b18b-c5a9-8770ee9f50b5" testName="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.ListarAsync_ComBusca_FiltraPorNome" computerName="CYBER" duration="00:00:01.1964031" startTime="2026-04-15T16:10:27.8631561-03:00" endTime="2026-04-15T16:10:29.0633215-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="381c790f-2607-46b4-894a-c62ad63f4895" />
+    <UnitTestResult executionId="02b6a7c9-43e5-4c3b-a21b-f9657a9c6cb4" testId="461e90d0-8c55-a14e-2b72-f15be98237e3" testName="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.ListarTodasTransacoes_OrdenadasPorDataDecrescente" computerName="CYBER" duration="00:00:00.0166750" startTime="2026-04-15T16:10:29.1092251-03:00" endTime="2026-04-15T16:10:29.1096705-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02b6a7c9-43e5-4c3b-a21b-f9657a9c6cb4" />
+    <UnitTestResult executionId="bb7d16ca-7a6d-4e0e-9d89-71c79740f58b" testId="dfc94531-74c7-6e3c-185f-6b5af32352e8" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_PessoaInexistente_LancaArgumentException" computerName="CYBER" duration="00:00:00.0263493" startTime="2026-04-15T16:10:29.1062196-03:00" endTime="2026-04-15T16:10:29.1094983-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb7d16ca-7a6d-4e0e-9d89-71c79740f58b" />
+    <UnitTestResult executionId="c6d5683f-b0cb-4170-b8f8-0f10d9bcc2f0" testId="bbf216f6-b1ac-a70b-a101-db5446345b96" testName="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests.ListarAsync_RetornaTodasCategorias" computerName="CYBER" duration="00:00:01.1912192" startTime="2026-04-15T16:10:27.8631169-03:00" endTime="2026-04-15T16:10:29.0579827-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6d5683f-b0cb-4170-b8f8-0f10d9bcc2f0" />
+    <UnitTestResult executionId="ed3ebcfe-586d-4acf-b0c9-54108bcdccf2" testId="6d6b9b03-893b-8de4-1cd4-6c5031905570" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.ObterPorIdAsync_TransacaoExistente_RetornaDto" computerName="CYBER" duration="00:00:00.0126156" startTime="2026-04-15T16:10:29.0532792-03:00" endTime="2026-04-15T16:10:29.0657049-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed3ebcfe-586d-4acf-b0c9-54108bcdccf2" />
+    <UnitTestResult executionId="534589aa-a24d-4107-ac94-4e711b4cbaa8" testId="8a9fb7e6-fede-dc5a-3128-927871f6ce4e" testName="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.MultiplasTransacoesMesmaPessoa_TodasPersistidas" computerName="CYBER" duration="00:00:00.1915511" startTime="2026-04-15T16:10:28.8977134-03:00" endTime="2026-04-15T16:10:29.1090087-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="534589aa-a24d-4107-ac94-4e711b4cbaa8" />
+    <UnitTestResult executionId="699873f5-279d-4b74-b848-52cc45320938" testId="5d29c02c-9a02-42b1-9b52-9b244bd15676" testName="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.ExcluirPessoa_SemTransacoes_Sucesso" computerName="CYBER" duration="00:00:01.0144266" startTime="2026-04-15T16:10:27.8630543-03:00" endTime="2026-04-15T16:10:28.8839043-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="699873f5-279d-4b74-b848-52cc45320938" />
+    <UnitTestResult executionId="25692f81-9d1f-40ba-9ce2-d27deb270131" testId="6fc4a4db-57ee-1de0-4118-6d1ee081948f" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_TransacaoValida_Sucesso" computerName="CYBER" duration="00:00:00.0114329" startTime="2026-04-15T16:10:29.1130970-03:00" endTime="2026-04-15T16:10:29.1241921-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25692f81-9d1f-40ba-9ce2-d27deb270131" />
+    <UnitTestResult executionId="22a10cc3-19d2-402a-9f01-ed61b9a242dc" testId="f23897f8-ba1b-f761-2937-271db90791d6" testName="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.ExcluirAsync_PessoaExistente_Removida" computerName="CYBER" duration="00:00:00.0075729" startTime="2026-04-15T16:10:29.1123963-03:00" endTime="2026-04-15T16:10:29.1124604-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22a10cc3-19d2-402a-9f01-ed61b9a242dc" />
+    <UnitTestResult executionId="0028c230-47e2-48bd-bdc9-71a644442a2b" testId="0d36d6d1-99f5-a9f8-2514-e164a23c44c8" testName="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.AtualizarAsync_Inexistente_LancaKeyNotFoundException" computerName="CYBER" duration="00:00:00.0181686" startTime="2026-04-15T16:10:29.1070044-03:00" endTime="2026-04-15T16:10:29.1093007-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0028c230-47e2-48bd-bdc9-71a644442a2b" />
+    <UnitTestResult executionId="112fc2cb-42da-4feb-9060-59178e845887" testId="e9458f2c-4b63-294c-4382-edcbbe44172d" testName="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.CriarAsync_PessoaValida_RetornaDtoComId" computerName="CYBER" duration="00:00:00.0065718" startTime="2026-04-15T16:10:29.1094423-03:00" endTime="2026-04-15T16:10:29.1122211-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="112fc2cb-42da-4feb-9060-59178e845887" />
+    <UnitTestResult executionId="94dae626-1b89-45da-a1c5-24abfccfa99c" testId="4ef3bf1a-bec2-b806-6ab5-38232b19b801" testName="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.ObterPorIdAsync_Inexistente_RetornaNulo" computerName="CYBER" duration="00:00:00.1686665" startTime="2026-04-15T16:10:28.8977370-03:00" endTime="2026-04-15T16:10:29.0529865-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94dae626-1b89-45da-a1c5-24abfccfa99c" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.MultiplasTransacoesMesmaPessoa_TodasPersistidas" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="8a9fb7e6-fede-dc5a-3128-927871f6ce4e">
+      <Execution id="534589aa-a24d-4107-ac94-4e711b4cbaa8" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests" name="MultiplasTransacoesMesmaPessoa_TodasPersistidas" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.ExcluirPessoa_SemTransacoes_Sucesso" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="5d29c02c-9a02-42b1-9b52-9b244bd15676">
+      <Execution id="699873f5-279d-4b74-b848-52cc45320938" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests" name="ExcluirPessoa_SemTransacoes_Sucesso" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.CriarTransacaoDepoisExcluirPessoa_ExclusaoEmCascataFunciona" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="90d35991-91aa-c1d9-331a-1e0633bc1030">
+      <Execution id="95a8a8d7-48ac-4b44-90e2-eaa5e42ca223" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests" name="CriarTransacaoDepoisExcluirPessoa_ExclusaoEmCascataFunciona" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_TransacaoValida_Sucesso" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="6fc4a4db-57ee-1de0-4118-6d1ee081948f">
+      <Execution id="25692f81-9d1f-40ba-9ce2-d27deb270131" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="CriarAsync_TransacaoValida_Sucesso" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.AtualizarAsync_PessoaExistente_AtualizaCampos" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="b2bf7410-49a3-9fd3-4398-7b59007134b8">
+      <Execution id="1bb7e21c-e42d-40e6-a515-264b917032e5" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests" name="AtualizarAsync_PessoaExistente_AtualizaCampos" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_PessoaInexistente_LancaArgumentException" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="dfc94531-74c7-6e3c-185f-6b5af32352e8">
+      <Execution id="bb7d16ca-7a6d-4e0e-9d89-71c79740f58b" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="CriarAsync_PessoaInexistente_LancaArgumentException" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.CriarAsync_DataNascimentoFutura_ServiceAceita" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="6d5cb675-4208-698d-f136-e95c5c6c3a70">
+      <Execution id="94641c80-c785-4054-bc37-2205c16a9c79" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests" name="CriarAsync_DataNascimentoFutura_ServiceAceita" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_CategoriaIncompativel_LancaInvalidOperationException" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="f5af63ab-fcb5-b268-d673-f4d40360d80f">
+      <Execution id="0c87e484-0536-4d6b-8026-844a9b7419d6" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="CriarAsync_CategoriaIncompativel_LancaInvalidOperationException" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_MenorComReceita_LancaInvalidOperationException" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="b589af6f-f372-7ae4-d651-5be3d9386b55">
+      <Execution id="020bc88e-6630-4b41-a18c-d7ec192cbca4" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="CriarAsync_MenorComReceita_LancaInvalidOperationException" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_CategoriaInexistente_LancaArgumentException" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="4380032b-c5f9-2915-a6bb-fa714cd4b26c">
+      <Execution id="736ed200-2db6-4922-8aab-fc7cee842444" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="CriarAsync_CategoriaInexistente_LancaArgumentException" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests.ListarAsync_RetornaTodasCategorias" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="bbf216f6-b1ac-a70b-a101-db5446345b96">
+      <Execution id="c6d5683f-b0cb-4170-b8f8-0f10d9bcc2f0" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests" name="ListarAsync_RetornaTodasCategorias" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.CriarAsync_MenorComDespesa_Sucesso" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="6516fd31-b489-8361-30e8-5ab4b1b77647">
+      <Execution id="be7dab12-c020-4674-af9f-8a82838c60ac" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="CriarAsync_MenorComDespesa_Sucesso" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.ObterPorIdAsync_Inexistente_RetornaNulo" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="c70c9210-463b-dca8-8325-268ca04aeb38">
+      <Execution id="554685e0-419a-478a-8d76-bd83cc8305cf" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests" name="ObterPorIdAsync_Inexistente_RetornaNulo" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.ObterPorIdAsync_TransacaoExistente_RetornaDto" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="6d6b9b03-893b-8de4-1cd4-6c5031905570">
+      <Execution id="ed3ebcfe-586d-4acf-b0c9-54108bcdccf2" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="ObterPorIdAsync_TransacaoExistente_RetornaDto" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests.PermiteTipo_PeloDbContext_ConsistenteComDominio" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="7bc4436a-468b-68dd-2a55-3818f8bdc33b">
+      <Execution id="8b360bed-0a38-481d-9db8-d8fc32ffb658" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests" name="PermiteTipo_PeloDbContext_ConsistenteComDominio" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests.CriarAsync_CategoriaValida_RetornaDto" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="1de6ca08-e989-9e3a-24c9-d75ca5d0d190">
+      <Execution id="c0f0f373-6625-418b-bb55-30908691c7ad" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.CategoriaIntegrationTests" name="CriarAsync_CategoriaValida_RetornaDto" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.ExcluirPessoa_ExcluiTransacoesEmCascata" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="fc2af403-7c65-e6f1-286d-9ab27e9b4d39">
+      <Execution id="790facf9-c277-46fa-be16-5991fc8f15bc" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests" name="ExcluirPessoa_ExcluiTransacoesEmCascata" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests.ListarTodasTransacoes_OrdenadasPorDataDecrescente" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="461e90d0-8c55-a14e-2b72-f15be98237e3">
+      <Execution id="02b6a7c9-43e5-4c3b-a21b-f9657a9c6cb4" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TotaisIntegrationTests" name="ListarTodasTransacoes_OrdenadasPorDataDecrescente" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.CriarAsync_PessoaValida_RetornaDtoComId" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="e9458f2c-4b63-294c-4382-edcbbe44172d">
+      <Execution id="112fc2cb-42da-4feb-9060-59178e845887" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests" name="CriarAsync_PessoaValida_RetornaDtoComId" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.ListarAsync_ComBusca_FiltraPorNome" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="9b80d459-dce4-b18b-c5a9-8770ee9f50b5">
+      <Execution id="381c790f-2607-46b4-894a-c62ad63f4895" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests" name="ListarAsync_ComBusca_FiltraPorNome" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.ExcluirAsync_PessoaExistente_Removida" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="f23897f8-ba1b-f761-2937-271db90791d6">
+      <Execution id="22a10cc3-19d2-402a-9f01-ed61b9a242dc" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests" name="ExcluirAsync_PessoaExistente_Removida" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests.ObterPorIdAsync_Inexistente_RetornaNulo" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="4ef3bf1a-bec2-b806-6ab5-38232b19b801">
+      <Execution id="94dae626-1b89-45da-a1c5-24abfccfa99c" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.TransacaoIntegrationTests" name="ObterPorIdAsync_Inexistente_RetornaNulo" />
+    </UnitTest>
+    <UnitTest name="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests.AtualizarAsync_Inexistente_LancaKeyNotFoundException" storage="c:\examedesenvolvedordetestes\backendtests\integrationtests\bin\debug\net10.0\integrationtests.dll" id="0d36d6d1-99f5-a9f8-2514-e164a23c44c8">
+      <Execution id="0028c230-47e2-48bd-bdc9-71a644442a2b" />
+      <TestMethod codeBase="C:\ExameDesenvolvedorDeTestes\BackendTests\IntegrationTests\bin\Debug\net10.0\IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MinhasFinancas.IntegrationTests.Tests.PessoaIntegrationTests" name="AtualizarAsync_Inexistente_LancaKeyNotFoundException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b2bf7410-49a3-9fd3-4398-7b59007134b8" executionId="1bb7e21c-e42d-40e6-a515-264b917032e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6516fd31-b489-8361-30e8-5ab4b1b77647" executionId="be7dab12-c020-4674-af9f-8a82838c60ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1de6ca08-e989-9e3a-24c9-d75ca5d0d190" executionId="c0f0f373-6625-418b-bb55-30908691c7ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c70c9210-463b-dca8-8325-268ca04aeb38" executionId="554685e0-419a-478a-8d76-bd83cc8305cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bc4436a-468b-68dd-2a55-3818f8bdc33b" executionId="8b360bed-0a38-481d-9db8-d8fc32ffb658" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5af63ab-fcb5-b268-d673-f4d40360d80f" executionId="0c87e484-0536-4d6b-8026-844a9b7419d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5cb675-4208-698d-f136-e95c5c6c3a70" executionId="94641c80-c785-4054-bc37-2205c16a9c79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b589af6f-f372-7ae4-d651-5be3d9386b55" executionId="020bc88e-6630-4b41-a18c-d7ec192cbca4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90d35991-91aa-c1d9-331a-1e0633bc1030" executionId="95a8a8d7-48ac-4b44-90e2-eaa5e42ca223" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc2af403-7c65-e6f1-286d-9ab27e9b4d39" executionId="790facf9-c277-46fa-be16-5991fc8f15bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4380032b-c5f9-2915-a6bb-fa714cd4b26c" executionId="736ed200-2db6-4922-8aab-fc7cee842444" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b80d459-dce4-b18b-c5a9-8770ee9f50b5" executionId="381c790f-2607-46b4-894a-c62ad63f4895" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="461e90d0-8c55-a14e-2b72-f15be98237e3" executionId="02b6a7c9-43e5-4c3b-a21b-f9657a9c6cb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfc94531-74c7-6e3c-185f-6b5af32352e8" executionId="bb7d16ca-7a6d-4e0e-9d89-71c79740f58b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbf216f6-b1ac-a70b-a101-db5446345b96" executionId="c6d5683f-b0cb-4170-b8f8-0f10d9bcc2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d6b9b03-893b-8de4-1cd4-6c5031905570" executionId="ed3ebcfe-586d-4acf-b0c9-54108bcdccf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a9fb7e6-fede-dc5a-3128-927871f6ce4e" executionId="534589aa-a24d-4107-ac94-4e711b4cbaa8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d29c02c-9a02-42b1-9b52-9b244bd15676" executionId="699873f5-279d-4b74-b848-52cc45320938" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fc4a4db-57ee-1de0-4118-6d1ee081948f" executionId="25692f81-9d1f-40ba-9ce2-d27deb270131" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f23897f8-ba1b-f761-2937-271db90791d6" executionId="22a10cc3-19d2-402a-9f01-ed61b9a242dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d36d6d1-99f5-a9f8-2514-e164a23c44c8" executionId="0028c230-47e2-48bd-bdc9-71a644442a2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9458f2c-4b63-294c-4382-edcbbe44172d" executionId="112fc2cb-42da-4feb-9060-59178e845887" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ef3bf1a-bec2-b806-6ab5-38232b19b801" executionId="94dae626-1b89-45da-a1c5-24abfccfa99c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="23" executed="23" passed="23" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.3)&#xD;
+[xUnit.net 00:00:00.10]   Discovering: IntegrationTests&#xD;
+[xUnit.net 00:00:00.15]   Discovered:  IntegrationTests&#xD;
+[xUnit.net 00:00:00.17]   Starting:    IntegrationTests&#xD;
+     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+[xUnit.net 00:00:01.49]   Finished:    IntegrationTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

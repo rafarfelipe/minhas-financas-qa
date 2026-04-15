@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <!-- Enable .NET analyzers and set analysis level -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <!-- Produce XML documentation across projects (already enabled in API but ensure globally) -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>

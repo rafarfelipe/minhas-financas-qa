@@ -1,0 +1,1 @@
+export { CategoriaSelect } from "./LazyCategoriaSelect";

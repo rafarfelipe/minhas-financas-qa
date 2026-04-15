@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="17" failures="0" errors="0" time="0.180641">
+    <testsuite name="src/__tests__/schemas.test.ts" timestamp="2026-04-15T19:03:23.115Z" hostname="Cyber" tests="14" failures="0" errors="0" skipped="0" time="0.0115577">
+        <testcase classname="src/__tests__/schemas.test.ts" name="pessoaSchema &gt; valid data passes" time="0.0033017">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="pessoaSchema &gt; empty nome fails" time="0.0010052">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="pessoaSchema &gt; nome over 200 chars fails" time="0.0004641">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="pessoaSchema &gt; missing dataNascimento fails" time="0.0005814">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="categoriaSchema &gt; valid data passes" time="0.0005712">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="categoriaSchema &gt; empty descricao fails" time="0.0004473">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="categoriaSchema &gt; descricao over 200 chars fails" time="0.0003481">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="categoriaSchema &gt; missing finalidade fails" time="0.0004334">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="transacaoSchema &gt; valid data passes" time="0.0008746">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="transacaoSchema &gt; negative valor fails" time="0.0004859">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="transacaoSchema &gt; zero valor fails" time="0.0003096">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="transacaoSchema &gt; empty categoriaId fails" time="0.0003224">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="transacaoSchema &gt; empty pessoaId fails" time="0.000307">
+        </testcase>
+        <testcase classname="src/__tests__/schemas.test.ts" name="transacaoSchema &gt; descricao over 200 chars fails" time="0.0003004">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/transacao-form.test.tsx" timestamp="2026-04-15T19:03:23.122Z" hostname="Cyber" tests="3" failures="0" errors="0" skipped="0" time="0.1690833">
+        <testcase classname="src/__tests__/transacao-form.test.tsx" name="TransacaoForm &gt; renders all form fields" time="0.0554392">
+        </testcase>
+        <testcase classname="src/__tests__/transacao-form.test.tsx" name="TransacaoForm &gt; shows submit and cancel buttons" time="0.1017715">
+        </testcase>
+        <testcase classname="src/__tests__/transacao-form.test.tsx" name="TransacaoForm &gt; has default tipo as Despesa" time="0.0093023">
+        </testcase>
+    </testsuite>
+</testsuites>
